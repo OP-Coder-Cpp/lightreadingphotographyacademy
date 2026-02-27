@@ -26,7 +26,7 @@ export default function Mentor() {
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-center gap-16 w-full">
         {/* Image */}
         <motion.img
-          src="/Mentor.jpg"
+          src="/Mentor.JPG"
           alt="Mentor"
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
