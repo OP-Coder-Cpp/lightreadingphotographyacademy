@@ -2,8 +2,15 @@
 
 import { motion,useInView,AnimatePresence } from "framer-motion";
 import { useRef,useEffect, useState } from "react";
+import photo1 from "@/assets/1.webp";
+import photo2 from "@/assets/2.webp";
+import photo3 from "@/assets/3.webp";
+import photo4 from "@/assets/4.webp";
+import photo5 from "@/assets/5.webp";
+import photo6 from "@/assets/A2.webp";
+import Image from "next/image";
 
-const images = ["/hero section/1.webp", "/hero section/2.webp", "/hero section/3.webp","/hero section/4.webp","/hero section/5.webp","/hero section/A2.webp"];
+const images = [photo1,photo2 , photo3,photo4,photo5,photo6];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
@@ -28,38 +35,49 @@ export default function Hero() {
       id="hero"
       className="relative
         w-full
-        md:h-[100svh]
         overflow-hidden"
         ref={heroRef}
     >
-       <AnimatePresence  mode='sync'>
-        <motion.img
-        key={index}
-        src={images[index]}
-        initial={{ opacity:0 }}
-        animate={{ opacity:1 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-        className="
-          flex
-          flex-col
-          w-full
-          h-auto
-          md:h-[100svh]
-          md:object-cover
-          object-contain 
-          "
-      />
+       <div className="block md:hidden w-full">
+        <Image
+          src={images[index]}
+          alt="hero images mobile"
+          width={1920}
+          height={1080}
+          priority
+          sizes="100vh"
+          className="w-full h-auto object-contain"
+        />
       
-
+      
       <motion.div
+        animate={{ y: [0, 15, 0] }}
+        transition={{ repeat: Infinity, duration: 1.5 }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+      >
+      <img src="/mouse.svg" className="w-7 h-7 md:w-10 md:h-10"alt="background" />
+      </motion.div>
+
+      </div>
+
+      {/* DESKTOP: Full screen hero */}
+      <div className="hidden md:block relative w-screen h-screen">
+        <Image
+          src={images[index]}
+          alt="hero images desktop"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+              <motion.div
         animate={{ y: [0, 15, 0] }}
         transition={{ repeat: Infinity, duration: 1.5 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
         <img src="/mouse.svg" className="w-7 h-7 md:w-10 md:h-10"alt="background" />
       </motion.div>
-       </AnimatePresence>
-      
+      </div>     
     </section>
 
   );

@@ -19,7 +19,7 @@ export default function StudentAchievements() {
     >
       <div className="px-6 md:px-16 mb-16 ">
         <h2 className="text-4xl md:text-5xl  text-center font-bold text-white">
-          Students' Awards 
+          Students' Achievements
         </h2>
         <p className="text-gray-400 mt-4  text-center justify-content">
           Celebrating outstanding performances, awards, and professional
