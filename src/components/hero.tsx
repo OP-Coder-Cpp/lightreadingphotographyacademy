@@ -34,7 +34,8 @@ export default function Hero() {
 <section
       id="hero"
       className="relative
-        w-full
+        w-screen
+        md:h-screen
         overflow-hidden"
         ref={heroRef}
     >
