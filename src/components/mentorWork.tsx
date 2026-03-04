@@ -40,7 +40,7 @@ export default function MentorWork() {
       </div>
 
       {/* Masonry Grid */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      <div className="columns-2  lg:columns-3 gap-6 space-y-6">
         {images.map((img, i) => (
           <motion.div
             key={i}
