@@ -17,7 +17,7 @@ const courses: Course[] = [
   {
   title: "3-Month Pro Visual Photography",
   price: "$2000",
-  level: "Beginner to Pro",
+  level: "Beginner",
   duration: "3 Months",
   curriculum:"/Course Details/Pro level.pdf",
   description: [
