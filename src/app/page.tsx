@@ -8,6 +8,7 @@ import Contact from "@/components/contact";
 import Navbar from "@/components/navbar";
 import WelcomeOverlay from "@/components/welcomeOverlay";
 import StudentAchievements from "@/components/studentAchievements";
+import MentorWork from "@/components/mentorWork";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <WelcomeOverlay />
       <Hero />
       <Mentor />
+      <MentorWork/>
       <Students />
       <StudentAchievements/>
       <Courses />

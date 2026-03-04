@@ -16,7 +16,7 @@ export default function Students() {
   return (
     <section id="students" className="py-16 px-6 md:px-16">
       <h2 className="text-4xl md:text-5xl text-center font-bold mb-10">Students' Work</h2>
-      <div className="columns-2 md:columns-3 gap-4">
+    <div className="columns-2 md:columns-3 gap-4">
   {images.map((img, i) => (
     <div
       key={i}

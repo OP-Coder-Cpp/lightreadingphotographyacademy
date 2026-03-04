@@ -9,9 +9,10 @@ import {
   FaBook,
   FaTrophy,
   FaEnvelope,
+  FaCamera,
 } from "react-icons/fa";
 
-const sections = ["hero", "mentor", "students","achievements", "courses", "contact"];
+const sections = ["hero", "mentor", "mentorswork","students","achievements", "courses", "contact"];
 
 export default function Navbar() {
   // const [mount,setMount]=useState(false);
@@ -73,6 +74,7 @@ export default function Navbar() {
   const icons = [
     { id: "hero", icon: <FaHome /> },
     { id: "mentor", icon: <FaUser /> },
+    {id:"mentorswork",icon:<FaCamera/>},
     { id: "students", icon: <FaImage /> },
     {id:"achievements",icon:<FaTrophy/>},
     { id: "courses", icon: <FaBook /> },
