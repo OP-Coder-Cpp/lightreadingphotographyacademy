@@ -16,7 +16,7 @@ interface Course {
 const courses: Course[] = [
   {
   title: "3-Month Pro Visual Photography",
-  price: "₹2000",
+  price: "₹15,000",
   level: "Beginner to Pro",
   duration: "3 Months",
   curriculum:"/Course Details/Pro level - 1st Semester.pdf",
@@ -33,7 +33,7 @@ const courses: Course[] = [
   },
   {
   title: "3-Month Advanced Studio Lighting",
-  price: "₹2000",
+  price: "₹15,000",
   level: "Pro to Advanced",
   duration: "3 Months",
   curriculum:"/Course Details/Advance Pro level - 2nd Semester.pdf",
@@ -50,7 +50,7 @@ const courses: Course[] = [
   },
   {
   title: "9-Month Diploma Photography Course",
-  price: "₹2000",
+  price: "₹28,000",
   level: "Beginner to Advanced",
   duration: "9 months",
   curriculum:"/Course Details/9 Months Diploma Course.pdf",

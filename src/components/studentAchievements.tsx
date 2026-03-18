@@ -17,13 +17,13 @@ export default function StudentAchievements() {
       id="achievements"
       className="relative py-24 bg-black overflow-hidden"
     >
-      <div className="px-6 md:px-16 mb-16 ">
+      <div className="px-6 md:px-16 mb-12 ">
         <h2 className="text-4xl md:text-5xl  text-center font-bold text-white">
           Students' Achievements
         </h2>
         <p className="text-gray-400 mt-4  text-center justify-content">
-          Celebrating outstanding performances, awards, and professional
-          milestones achieved by our students.
+          <span className="text-2xl font-bold text-[#ffde59]">❝</span>Celebrating outstanding performances, awards, and professional
+          milestones achieved by our students. We provide our students with global exposure through international competitions, prestigious exhibitions, and high-profile platforms, helping them gain worldwide recognition. With continuous guidance and a strong focus on excellence, we celebrate their achievements, awards, and milestones—empowering them to grow as confident, globally recognized photographers.<span className="text-2xl font-bold text-[#ffde59]">❞</span>
         </p>
       </div>
 
