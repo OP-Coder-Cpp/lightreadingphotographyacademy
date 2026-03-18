@@ -49,9 +49,9 @@ const reviews :Review[] = [
     comment: "I didn't know anything before, after going to you I gained a lot of experience. I had no experience in outdoor shooting and I learned a lot from you, you take great care of our work there. Thank you very much sir 🙏🙏🙏🙏❤️❤️❤️ …",
   },
   {
-    name: "Vikram T.",
-    rating: 4,
-    comment: "Great experience with outdoor practical classes.",
+    name: "Tanmoy Das Photography",
+    rating: 5,
+    comment: "Excellent Academy. Especially the exhibition they do every year is amazing",
   },
   {
     name: "Alisa Khatun",
