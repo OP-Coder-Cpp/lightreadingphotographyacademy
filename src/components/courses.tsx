@@ -42,9 +42,10 @@ const courses: Course[] = [
     "Understand different types of lighting and how they affect your photos",
     "Master camera and flash settings to get perfect exposure in any situation",
     "Learn professional portrait lighting styles, Understanding Core Business of Advertisement and Fashion Photography",
+    "Wedding Photography Creative lighting",
+    "Advance photography Composition",
     "Get hands-on practice using professional studio equipments",
     "Understand how to control light direction for creative shots",
-    "E commerce product Photography,Creative product Photography,E-Commerce oriented Shoot",
     "Create advanced effects like light painting and double exposure photography",
     "Learn multi-light setups used in professional studio photography",
     ],
@@ -59,10 +60,11 @@ const courses: Course[] = [
     "Learn complete photography from basics to advanced",
     "Master camera settings like aperture, shutter speed, ISO",
     "Understand lighting deeply — from natural light to studio lighting",
+    "Learn professional portrait lighting styles, Understanding Core Business of Advertisement and Fashion Photography",
     "Explore different photography styles",
     "Learn composition techniques to create visually powerful and storytelling",
     "Learn complete photo editing & post-processing including album design",
-    "Learn Advance professional product Photography",
+    "Learn Advance professional product Photography E commerce product Photography,Creative product Photography,E-Commerce oriented Shoot",
     "Master advanced studio lighting including multi-light ",
     ],
   },
@@ -72,7 +74,7 @@ export default function Courses() {
   return (
     <section
       id="courses"
-      className="relative min-h-screen px-6 md:px-16 py-24 overflow-hidden"
+      className="relative min-h-screen px-6 md:px-16  overflow-hidden"
     >
       {/* Background Image */}
       <div
@@ -172,7 +174,7 @@ export default function Courses() {
           >
             {/* Level Badge */}
             <div className="flex justify-between items-center mb-6">
-              <span className="text-xs tracking-widest text-gray-400 uppercase">
+              <span className="text-xs tracking-widest text-[#ffde59] uppercase ">
                 {course.level}
               </span>
 
