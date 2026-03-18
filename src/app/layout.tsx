@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://lightreadingphotographyacademyweb.vercel.app/"),
 
   title: {
     default: "Light Reading Photography Academy",
@@ -34,7 +34,7 @@ export const metadata = {
     title: "Light Reading Photography Academy",
     description:
       "Learn professional photography with hands-on practical sessions and international recognition.",
-    url: "https://yourdomain.com",
+    url: "https://lightreadingphotographyacademyweb.vercel.app/",
     siteName: "Light Reading Photography Academy",
     images: [
       {
@@ -68,8 +68,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "EducationalOrganization",
               name: "Light Reading Photography Academy",
-              image: "https://yourdomain.com/logo.png",
-              url: "https://yourdomain.com",
+              image: "",
+              url: "https://lightreadingphotographyacademyweb.vercel.app/",
               telephone: "+918961195186",
               address: {
                 "@type": "PostalAddress",
