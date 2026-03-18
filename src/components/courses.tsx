@@ -44,6 +44,7 @@ const courses: Course[] = [
     "Learn professional portrait lighting styles, Understanding Core Business of Advertisement and Fashion Photography",
     "Get hands-on practice using professional studio equipments",
     "Understand how to control light direction for creative shots",
+    "E commerce product Photography,Creative product Photography,E-Commerce oriented Shoot",
     "Create advanced effects like light painting and double exposure photography",
     "Learn multi-light setups used in professional studio photography",
     ],
