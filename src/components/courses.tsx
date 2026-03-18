@@ -16,10 +16,10 @@ interface Course {
 const courses: Course[] = [
   {
   title: "3-Month Pro Visual Photography",
-  price: "$2000",
-  level: "Beginner",
+  price: "₹2000",
+  level: "Beginner to Pro",
   duration: "3 Months",
-  curriculum:"/Course Details/Pro level.pdf",
+  curriculum:"/Course Details/Pro level - 1st Semester.pdf",
   description: [
     "Exposure, Aperture, Shutter Speed & ISO Mastery",
     "Incident & Reflected Light Understanding",
@@ -33,36 +33,36 @@ const courses: Course[] = [
   },
   {
   title: "3-Month Advanced Studio Lighting",
-  price: "$2000",
-  level: "Advanced",
+  price: "₹2000",
+  level: "Pro to Advanced",
   duration: "3 Months",
-  curriculum:"/Course Details/Advance Pro level.pdf",
+  curriculum:"/Course Details/Advance Pro level - 2nd Semester.pdf",
   description: [
-    "Incident & Reflected Light Deep Study",
-    "Modifiers, Diffusers & Light Intensity Control",
-    "Flash, Trigger & Strobe Settings Mastery",
-    "Direction & Quality of Light Techniques",
-    "Rembrandt, Loop, Short & Broad Lighting",
-    "Split, Profile, Beauty & Rim Lighting",
-    "2, 3 & 4 Light Fashion Portrait Setups",
-    "Key, Fill, Hair, Side & Background Lighting",
+    "Learn how light works in photography",
+    "Understand different types of lighting and how they affect your photos",
+    "Master camera and flash settings to get perfect exposure in any situation",
+    "Learn professional portrait lighting styles",
+    "Get hands-on practice using studio equipment",
+    "Understand how to control light direction for creative shots",
+    "Create advanced effects like light painting and double exposure photography",
+    "Learn multi-light setups used in professional studio photography",
     ],
   },
   {
-  title: "Diploma Photography Course",
-  price: "$2000",
-  level: "Beginner to Pro",
+  title: "9-Month Diploma Photography Course",
+  price: "₹2000",
+  level: "Beginner to Advanced",
   duration: "9 months",
   curriculum:"/Course Details/9 Months Diploma Course.pdf",
   description: [
-    "Advanced Lightroom & Photoshop Workflows",
-    "Professional Color Correction & Color Grading",
-    "Wedding, Street & Portrait Retouching",
-    "Travel, Bird, Macro & Studio Editing",
-    "Product Photography Editing Techniques",
-    "Skin Retouching & Detail Enhancement",
-    "Creative Effects & Mood Development",
-    "Album Design & Final Output Preparation",
+    "Learn complete photography from basics to advanced",
+    "Master camera settings like aperture, shutter speed, ISO",
+    "Understand lighting deeply — from natural light to studio lighting",
+    "Explore different photography styles",
+    "Learn composition techniques to create visually powerful and storytelling",
+    "Learn complete photo editing & post-processing including album design",
+    "Get hands-on outdoor practical sessions",
+    "Master advanced studio lighting including multi-light ",
     ],
   },
 ];
@@ -229,7 +229,7 @@ export default function Courses() {
       </div>
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-300 tracking-wide">
-            <span className="text-[#ffde59] font-semibold underline">
+            <span className="text-3xl text-[#ffde59] px-2 py-1 rounded">
               Online Classes
             </span>{" "}
             are also available for students across locations.

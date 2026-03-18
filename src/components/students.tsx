@@ -15,7 +15,8 @@ export default function Students() {
 
   return (
     <section id="students" className="py-16 px-6 md:px-16">
-      <h2 className="text-4xl md:text-5xl text-center font-bold mb-10">Students' Work</h2>
+      <h2 className="text-4xl md:text-5xl text-center font-bold mb-10">Students' Works</h2>
+      <p className="text-gray-400 mt-4  text-center justify-content mb-10"><span className="text-2xl font-bold text-[#ffde59]">❝</span> Our Photography Institute was established in Year 2021 with the vision of creating skilled and professional photographers. Through practical training, creative guidance, and real-world projects, we help students develop strong technical and artistic photography skills. From basic camera knowledge to advanced photography techniques, our courses are designed to prepare students for a successful career in the photography industry. <span className="text-2xl font-bold text-[#ffde59]">❞</span></p>
     <div className="columns-2 md:columns-3 gap-4">
   {images.map((img, i) => (
     <div

@@ -9,7 +9,7 @@ const images = ["/Achievements/1.jpg", "/Achievements/2.jpg", "/Achievements/3.j
 "/Achievements/10.jpg","/Achievements/11.jpg","/Achievements/12.jpg","/Achievements/13.jpg","/Achievements/14.jpg","/Achievements/15.jpg","/Achievements/16.jpg","/Achievements/17.jpg","/Achievements/18.jpg",
 "/Achievements/19.jpg","/Achievements/20.jpg","/Achievements/21.jpg","/Achievements/22.jpg","/Achievements/23.jpg","/Achievements/24.jpg","/Achievements/25.jpg","/Achievements/26.jpg",
 "/Achievements/27.jpg","/Achievements/28.jpg","/Achievements/29.jpg","/Achievements/30.jpg","/Achievements/31.jpg","/Achievements/32.jpg","/Achievements/33.jpg","/Achievements/34.jpg",
-"/Achievements/35.jpg","/Achievements/36.jpg","/Achievements/37.jpg","/Achievements/38.jpg","/Achievements/39.jpg","/Achievements/40.jpg","/Achievements/41.jpg","/Achievements/42.jpg"];
+"/Achievements/35.jpg","/Achievements/36.jpg","/Achievements/37.jpg","/Achievements/38.jpg","/Achievements/39.jpg","/Achievements/40.jpg","/Achievements/41.jpg","/Achievements/42.jpg","/Achievements/43.jpg"];
 
 export default function StudentAchievements() {
   return (

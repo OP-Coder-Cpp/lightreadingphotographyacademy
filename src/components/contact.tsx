@@ -19,34 +19,34 @@ interface Review {
 
 const reviews :Review[] = [
   {
-    name: "Rahul S.",
+    name: "Souvik Chanda",
     rating: 5,
-    comment: "Amazing learning experience. Highly recommended academy!",
+    comment: "Joining Light Reading Photography Academy has been one of the best decisions for my photography journey. In just one month, I have learned more than I expected — not only about camera settings and technical aspects, but about truly",
   },
   {
-    name: "Priya K.",
+    name: "Kaushik Banerjee.",
     rating: 5,
-    comment: "Hands-on sessions completely changed my photography skills.",
+    comment: "This is a place where you can not only learn photography but a place where you start loving photography. Guidance provided by our Mentor sir helps every student in every possible way to think differently for getting amazing results.",
   },
   {
-    name: "Arjun M.",
-    rating: 4,
-    comment: "Very professional mentor with deep industry knowledge.",
+    name: "আপনার কথা",
+    rating: 5,
+    comment: "Light Trading Academy is a dream place for me. Thank you Santu sir, he is such a good teacher, friend and grandfather who teaches us. I am very happy to join this academy.",
   },
   {
-    name: "Neha P.",
+    name: "Ananta Ghosh",
     rating: 5,
-    comment: "Best photography institute with real practical exposure.",
+    comment: "Light Reading  Photography is a place I truly love… I feel incredibly proud to be a student of Light  Reading Photography... If I hadn’t joined, I wouldn’t have realized what photography really is. Learning photography from here I absolutely, truly, deeply love it",
   },
   {
-    name: "Sourav D.",
+    name: "Sayan Biswas",
     rating: 5,
-    comment: "Excellent lighting training and studio practice.",
+    comment: "I am a student of LRP and I am very impressed and satisfied.I would say LRP this is the best academy for a beginner to learn photography. This academy is full of creativity and the classes are very interesting … ",
   },
   {
-    name: "Ananya R.",
+    name: "Basak Bhisal",
     rating: 5,
-    comment: "The photowalk sessions were very helpful.",
+    comment: "I didn't know anything before, after going to you I gained a lot of experience. I had no experience in outdoor shooting and I learned a lot from you, you take great care of our work there. Thank you very much sir 🙏🙏🙏🙏❤️❤️❤️ …",
   },
   {
     name: "Vikram T.",
@@ -54,19 +54,19 @@ const reviews :Review[] = [
     comment: "Great experience with outdoor practical classes.",
   },
   {
-    name: "Ritika S.",
+    name: "Alisa Khatun",
     rating: 5,
-    comment: "Loved the composition and storytelling sessions.",
+    comment: "really enjoyed this exhibition. The artworks are creative, meaningful, and visually appealing. It’s definitely worth experiencing.",
   },
   {
-    name: "Manish P.",
+    name: "Ashoke C",
     rating: 5,
-    comment: "Mentor guidance is outstanding.",
+    comment: "Exlnt experience.  Feeling enriched. Teacher is a dedicated photographer that's why learning is enjoyable.I wish all succ of this institution.",
   },
   {
-    name: "Kunal G.",
+    name: "Biswadeep Das",
     rating: 5,
-    comment: "Studio lighting course is extremely professional.",
+    comment: "I’m completely new to photography, and this academy has been an amazing experience so far. The lessons cover all the fundamentals and advance level of photography in great detail, and my doubts are quickly cleared after each session.",
   },
 ];
   
