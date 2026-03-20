@@ -201,16 +201,24 @@ export default function Courses() {
               </ul>
 
             {/* Footer */}
-            <div className="flex justify-between items-center border-t border-gray-800 pt-6">
-              <span className="text-sm text-gray-500">
-                {course.duration}
-              </span>
-              <div className="text-3xl font-bold text-[#ffde59] mb-8">
-              {course.price}
+            <div className="flex items-center border-t justify-between border-gray-800 pt-6 text-center">
+
+              <div >
+                <span className="text-sm text-gray-500">
+                  {course.duration}
+                </span>
               </div>
-              <button
-              onClick={() => window.open(course.curriculum, "_blank")}
-                className="
+
+              <div >
+                <h4 className="text-2xl md:text-3xl font-bold text-[#ffde59]">
+                {course.price}
+                </h4>
+              </div>
+
+              <div >
+                <button
+                  onClick={() => window.open(course.curriculum, "_blank")}
+                  className="
                   text-sm
                   text-white
                   border
@@ -222,15 +230,17 @@ export default function Courses() {
                   hover:text-black
                   transition-all
                   duration-300
-                "
-              >
-                View Details
-              </button>
+      "
+                >
+                  View Details
+                </button>
+              </div>
+
             </div>
           </motion.div>
         ))}
       </div>
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center py-8">
           <p className="text-lg text-gray-300 tracking-wide">
             <span className="text-3xl text-[#ffde59] px-2 py-1 rounded">
               Online Classes

@@ -96,7 +96,7 @@ export default function Mentor() {
             <div className="flex flex-col items-center md:items-start text-center md:text-left">
               <div className="flex items-center gap-3">
                 <HiOutlinePresentationChartBar className="text-[#ffde59] text-3xl" />
-                <h3 className="text-3xl font-bold text-[#ffde59]">100+</h3>
+                <h3 className="text-3xl font-bold text-[#ffde59]">50+</h3>
               </div>
               <p className="text-gray-400 text-sm mt-2">Workshops Conducted Yearly</p>
             </div>
