@@ -26,6 +26,7 @@ export const metadata = {
     "Photography Academy India",
     "Photography Institute Near Me",
     "Best Photography Mentor",
+    "Photography School","Training","Professional","Photography school","Photo", "photography training", "cinematography training","course","student","boroma naihati","naihati","art","modern", "Santu Adhikary", "Photography Insititute", "Cinematography Institute", "Videography Institute", "Calcutta", "Light Reading", "Photowalk", "Photo walk", "Studio", "Photo studio", "Photography Studio", "photo gallery", "photographer", "fine art", "art photography", "landscape photographers", "art gallery", "abstract art", "LRP", "Light Reading Photography Academy", "Best Photography institute in Bengal", "West Bengal"
   ],
 
   authors: [{ name: "Light Reading Photography Academy" }],
