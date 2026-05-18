@@ -10,6 +10,7 @@ import WelcomeOverlay from "@/components/welcomeOverlay";
 import StudentAchievements from "@/components/studentAchievements";
 import MentorWork from "@/components/mentorWork";
 import OurActivities from "@/components/ourActivities";
+import ModernCarousel from "@/components/ModernCarousel";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <MentorWork/>
       <Students />
       <OurActivities/>
+      <ModernCarousel/>
       <StudentAchievements/>
       <Courses />
       <Contact />
