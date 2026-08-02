@@ -20,6 +20,9 @@ const images: CarouselImage[] = [
   { id: 7, src: "/Colab/7.jpeg", alt: "Image 7" },
   { id: 8, src: "/Colab/8.jpeg", alt: "Image 8" },
   { id: 9, src: "/Colab/9.jpeg", alt: "Image 9" },
+  { id: 10, src: "/Colab/10.jpeg", alt: "Image 10" },
+  { id: 11, src: "/Colab/11.jpeg", alt: "Image 11" },
+  { id: 12, src: "/Colab/12.jpeg", alt: "Image 12" },
 ];
 
 export default function ModernCarousel() {
