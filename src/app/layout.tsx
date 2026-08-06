@@ -25,8 +25,10 @@ export const metadata = {
     "Studio Lighting Course",
     "Photography Academy India",
     "Photography Institute Near Me",
+    "Best Photography Institute Near Me",
+    "Photography Institute in Kolkata",
     "Best Photography Mentor",
-    "Photography School","Training","Professional","Photography school","Photo", "photography training", "cinematography training","course","student","boroma naihati","naihati","art","modern", "Santu Adhikary", "Photography Insititute", "Cinematography Institute", "Videography Institute", "Calcutta", "Light Reading", "Photowalk", "Photo walk", "Studio", "Photo studio", "Photography Studio", "photo gallery", "photographer", "fine art", "art photography", "landscape photographers", "art gallery", "abstract art", "LRP", "Light Reading Photography Academy", "Best Photography institute in Bengal", "West Bengal"
+    "Photography School","Training","Professional","Photography school","Photo", "photography training", "cinematography training","course","student","boroma naihati","naihati","art","modern", "Santu Adhikary", "Photography Insititute", "Cinematography Institute", "Videography Institute", "Calcutta","Kolkata", "Light Reading", "Photowalk", "Photo walk", "Studio", "Photo studio", "Photography Studio", "photo gallery", "photographer", "fine art", "art photography", "landscape photographers", "art gallery", "abstract art", "LRP", "Light Reading Photography Academy", "Best Photography institute in Bengal", "West Bengal"
   ],
 
   authors: [{ name: "Light Reading Photography Academy" }],
