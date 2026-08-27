@@ -24,10 +24,10 @@ interface Course {
 
 const courses: Course[] = [
   {
-    title: "3-Month Pro Visual Photography",
-    originalPrice: "₹17,999",
-    discountedPrice: "₹14,999",
-    discountPercent: "17%",
+    title: "3-Month Visual Photography Course",
+    originalPrice: "₹19,000",
+    discountedPrice: "₹15,000",
+    discountPercent: "21.05%",
     level: "Beginner to Pro",
     duration: "3 Months",
     curriculum: "/Course Details/Pro level - 1st Semester.pdf",
@@ -43,12 +43,12 @@ const courses: Course[] = [
     ],
   },
   {
-    title: "3-Month Advanced Studio Lighting",
-    originalPrice: "₹17,999",
-    discountedPrice: "₹14,999",
-    discountPercent: "17%",
+    title: "6-Month Pro Level Advanced Photography Course",
+    originalPrice: "₹30,000",
+    discountedPrice: "₹25,000",
+    discountPercent: "16.67%",
     level: "Pro to Advanced",
-    duration: "3 Months",
+    duration: "6 Months",
     curriculum: "/Course Details/Advance Pro level - 2nd Semester.pdf",
     description: [
       "Learn how light works in photography",
@@ -64,10 +64,10 @@ const courses: Course[] = [
     ],
   },
   {
-    title: "9-Month Diploma Photography Course",
-    originalPrice: "₹33,999",
-    discountedPrice: "₹27,999",
-    discountPercent: "18%",
+    title: "9-Month Photography Mastery Professional Course fees",
+    originalPrice: "₹34,000",
+    discountedPrice: "₹29,000",
+    discountPercent: "14.71%",
     level: "Beginner to Advanced",
     duration: "9 months",
     curriculum: "/Course Details/9 Months Diploma Course.pdf",
