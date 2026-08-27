@@ -78,7 +78,7 @@ const courses: Course[] = [
       "Portrait lighting styles",
       "Multiple photography genres",
       "Storytelling composition",
-      "Editing + album design",
+      "Editing",
       "Product photography",
       "Advanced studio lighting",
     ],
