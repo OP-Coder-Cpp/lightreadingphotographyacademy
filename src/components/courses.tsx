@@ -64,7 +64,7 @@ const courses: Course[] = [
     ],
   },
   {
-    title: "9-Month Photography Mastery Professional Course fees",
+    title: "9-Month Photography Mastery Professional Course",
     originalPrice: "₹34,000",
     discountedPrice: "₹29,000",
     discountPercent: "14.71%",
