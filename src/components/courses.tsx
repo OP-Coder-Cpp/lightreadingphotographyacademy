@@ -30,7 +30,7 @@ const courses: Course[] = [
     discountPercent: "21.05%",
     level: "Beginner to Pro",
     duration: "3 Months",
-    curriculum: "/Course Details/Pro level - 1st Semester.pdf",
+    curriculum: "/Course Details/3 month.pdf",
     description: [
       "Exposure, Aperture, Shutter Speed & ISO Mastery",
       "Incident & Reflected Light Understanding",
@@ -49,7 +49,7 @@ const courses: Course[] = [
     discountPercent: "16.67%",
     level: "Pro to Advanced",
     duration: "6 Months",
-    curriculum: "/Course Details/Advance Pro level - 2nd Semester.pdf",
+    curriculum: "/Course Details/6 month.pdf",
     description: [
       "Learn how light works in photography",
       "Understand different types of lighting",
@@ -70,7 +70,7 @@ const courses: Course[] = [
     discountPercent: "14.71%",
     level: "Beginner to Advanced",
     duration: "9 months",
-    curriculum: "/Course Details/9 Months Diploma Course.pdf",
+    curriculum: "/Course Details/9 month.pdf",
     description: [
       "Complete photography training",
       "Camera settings mastery",
